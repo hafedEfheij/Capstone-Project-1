@@ -122,3 +122,93 @@ ul {
   font-size: 0.9rem;
   letter-spacing: -3%;
 }
+
+#about-previous {
+  padding: 1rem 0.75rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+#about-previous h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #2c2c2c;
+  letter-spacing: -2%;
+}
+
+#about-previous #about-previous-bar {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  width: 2rem;
+  height: 2px;
+  background: #a04038;
+}
+
+#about-previous #about-previous-text {
+  color: #838383;
+  font-size: 0.9rem;
+  letter-spacing: -3%;
+  margin-bottom: 2rem;
+}
+
+#about-previous img {
+  margin-bottom: 1.5rem;
+}
+
+#about-partners {
+  background: #414246;
+  height: 100%;
+  color: #fff;
+  padding: 1rem 0.75rem 3rem 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+#about-partners h2 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+#about-partners #about-partners-bar {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  width: 2rem;
+  height: 2px;
+  background: #a04038;
+}
+
+#about-partners #about-partners-logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.8rem;
+}
+
+#footer {
+  height: 100%;
+  background: #fff;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#footer img {
+  height: 32px;
+}
+
+#footer p {
+  color: #3b3e45;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 16px;
+}
