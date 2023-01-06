@@ -121,7 +121,7 @@ To run tests, run the following command:
 ### Deployment
 
 - Deployed with github pages at:
-- hhttps://hafedefheij.github.io/Capstone-Project-1/
+- https://hafedefheij.github.io/Capstone-Project-1/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
