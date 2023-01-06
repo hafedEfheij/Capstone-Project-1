@@ -1,7 +1,7 @@
 #hero {
   margin-top: 40px;
   height: calc(100vh - 63px);
-  background-image: url("../../assets/images/mobile_intro_bg.png");
+  background-image: url('../../assets/images/mobile_intro_bg.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 0 0.75rem;
@@ -13,7 +13,7 @@
 @media screen and (min-width: 768px) {
   #hero {
     margin-top: 93px;
-    background-image: url("../../assets/images/desktop_hero_bg.png");
+    background-image: url('../../assets/images/desktop_hero_bg.png');
     padding-left: 20%;
     padding-right: 30%;
   }
@@ -34,10 +34,10 @@
 
 #hero-header > h1 {
   text-transform: uppercase;
-  font-family: "cocogoose", sans-serif;
+  font-family: 'cocogoose', sans-serif;
   font-size: 1.7rem;
   font-weight: bold;
-  background-image: url("../../assets/images/hero_bg.jpeg");
+  background-image: url('../../assets/images/hero_bg.jpeg');
   background-size: 100%;
   -webkit-background-clip: text;
   color: transparent;
@@ -85,7 +85,7 @@
 
 #program {
   height: 100%;
-  background-image: url("../../assets/images/program_bg.png");
+  background-image: url('../../assets/images/program_bg.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 1rem 0.75rem;
@@ -97,7 +97,7 @@
 
 @media screen and (min-width: 768px) {
   #program {
-    background-image: url("../../assets/images/desktop_program_bg.png");
+    background-image: url('../../assets/images/desktop_program_bg.png');
     padding: 1rem 10%;
   }
 
@@ -338,3 +338,32 @@
     height: 3.2rem;
   }
 }
+
+#footer {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  #footer {
+    height: 100%;
+    background: #fff;
+    padding: 2rem 20%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  #footer img {
+    height: 64px;
+  }
+
+  #footer p,
+  #footer span {
+    color: #3b3e45;
+    font-weight: 700;
+    font-size: 10px;
+  }
+}
+
+
